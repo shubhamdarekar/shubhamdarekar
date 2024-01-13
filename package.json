@@ -1,0 +1,16 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Code For Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://shubhamdarekar.github.io/personalwebsite",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
