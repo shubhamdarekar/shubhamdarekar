@@ -3,12 +3,13 @@ nav{
     width: 100%;
     min-height: 10vh;
     position: fixed;
-    top: 0%;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
     background-color: #061320;
+    transition: top 0.3s;
 }
 nav img{
     height: 45px;
