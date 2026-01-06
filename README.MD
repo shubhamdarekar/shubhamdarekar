@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Shubham Darekar and I'm a Graduate Student at University of Southern California.</p>
+<p align="left">My name is Shubham Darekar and I'm work at Amazon, and build cool document stores</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating better version of myself<br>📚 I'm currently learning Data Engineering<br>🎯 Goals: To become an expert in Data Engineering and Cloud Technologies<br>🎲 Fun fact: I'm a passionate learner and coding enthusiast!</p>
+<p align="left">✨ Creating better version of myself<br>I am currently an SDE learning stuff<br>🎯 Goals: To become an expert in Engineering and Cloud Technologies<br>🎲 Fun fact: I'm a passionate learner and coding enthusiast!</p>
 
 ###
 
@@ -23,9 +23,9 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="AWS logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="gcp logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="gcp logo"  />
 </div>
 
 ###
@@ -39,5 +39,6 @@
 ###
 
 <img src="https://raw.githubusercontent.com/shubhamdarekar/shubhamdarekar/output/snake.svg" alt="Snake animation" />
+
 
 ###
