@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Darekar</title>
+    <meta name="description" content="Shubham Darekar: Software Development Engineer at Amazon Web Services building distributed, event-driven backends and GenAI services.">
     <link rel="shortcut icon" href="https://img.icons8.com/?size=1000&id=OjIPpPNMfiev&format=png&color=000000" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -15,6 +16,7 @@
     <!--link rel="stylesheet" href="CSS/name.css"-->
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/skills.css">
+    <link rel="stylesheet" href="CSS/experience.css">
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/contactIcon.css">
@@ -61,6 +63,7 @@
         <a href=""><img src="https://img.icons8.com/pastel-glyph/2x/internet.png" alt=""></a>
         <ul>
             <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
@@ -72,6 +75,7 @@
     </nav>
     <div class="phoneMenu">
         <h2><a href="#About" onclick="hideMenu();">About</a></h2>
+        <h2><a href="#Experience" onclick="hideMenu();">Experience</a></h2>
         <h2><a href="#Skills" onclick="hideMenu();">Skills</a></h2>
         <h2><a href="#Contact" onclick="hideMenu();">Contact</a></h2>
     </div>
@@ -87,7 +91,7 @@
         <a href="https://www.linkedin.com/in/shubhamdarekar" target="_blank"><img src="icons/linkedin.svg"
                 alt="LinkedIn"></a>
         <a href="https://github.com/shubhamdarekar" target="_blank"><img src="icons/github.svg" alt="GitHub"></a>
-        <a href="./images/ShubhamSanjayDarekar_Resume.pdf" target="_blank"><img src="icons/resume.png" alt="Twitter"></a>
+        <a href="./images/ShubhamSanjayDarekar_Resume.pdf" target="_blank"><img src="icons/resume.png" alt="Resume"></a>
         <hr>
     </section>
 
@@ -111,7 +115,7 @@
                 <h1>Shubham Darekar</h1>
             </div>
             <h2>I'm a <span class="role" data-wait="1000"
-                    data-words='["Programmer.","Data Engineer.","Coding Enthusiast ","Passionate Learner."]'
+                    data-words='["Software Engineer @ AWS.","Backend Engineer.","Distributed Systems Builder.","GenAI Enthusiast."]'
                     data-wait='3000'></span></h2>
         </div>
         <!-- For Background Animation -->
@@ -131,21 +135,69 @@
         <div class="wrap">
             <div class="heading" data-aos="fade-right">
                 <h2>Shubham Darekar</h2>
-                <h3>I love to learn and lead.</h3>
+                <h3>I build systems that scale.</h3>
             </div>
             <div class="aboutMe" data-aos="fade-right" data-aos-anchor=".heading">
-                <p>I'm a Second Year  Graduate student at <a href="usc.edu"
-                        target="_blank">University of Southern California</a>,
-                        I would describe myself as an avid learner with an immense passion for technology 
-                    <span></span> My skills range from Data Engineering,<span> programming in Java and Python </span><span>Microsoft Azure, GCP, </span><span>as well as Data Science.</span>
-                </p>
-                <p>I enjoy learning new skills and implementing them in real life!<br>
-                    I am a believer of peer learning and always ready to share my knowledge.</p>
+                <p>I'm a Software Development Engineer at <span>Amazon Web Services</span> in Seattle, building
+                    high-scale, <span>event-driven backends</span> and <span>GenAI services on Amazon Bedrock</span>
+                    that Amazon engineers rely on every day.</p>
+                <p>Before Amazon, I spent three years at MAQ Software, a Microsoft partner, building cloud data
+                    platforms on Azure. I hold an MS in Computer Science from the
+                    <a href="https://www.usc.edu" target="_blank">University of Southern California</a>.</p>
             </div>
             <div><a href="mailto:shubhamsanjaydarekar@gmail.com"><button>Reach out to me</button></a></div>
             <a href="./images/ShubhamSanjayDarekar_Resume.pdf" target="_blank"><button>Take a look at my resume</button></a>
             <div class="img" data-aos="fade-left">
                 <img src="./images/Profile photo.png" alt="Picture of Shubham">
+            </div>
+        </div>
+    </div>
+    <!-- Experience Page -->
+    <div class="experience part" id="Experience">
+        <div class="title">
+            <h1>Experience</h1>
+            <hr>
+        </div>
+        <div class="timeline">
+            <div class="job" data-aos="fade-up">
+                <div class="jobHead">
+                    <h2>Software Development Engineer</h2>
+                    <span class="date">Jun 2025 &ndash; Present</span>
+                </div>
+                <h3>Amazon Web Services &middot; Seattle, WA</h3>
+                <ul>
+                    <li>Engineered the backend for the Amazon Paging app, scaling to 120k+ daily page requests for 70k+ builders and cutting page latency 10%; built GraphQL APIs and a global 4-region dashboard enforcing SLAs.</li>
+                    <li>Launched an AI-powered, event-driven ticket auto-resolution service on Amazon Bedrock, automating ~14,000 resolutions a day for 200+ resolver groups.</li>
+                    <li>Led migration of 70+ Lambda functions to container images, raising deployment limits from 250 MB to 10 GB and ending a 4-month release block.</li>
+                    <li>Drove migration of 64 billion audit records to partitioned Parquet, cutting scan latency 60% across 1,485 downstream subscribers.</li>
+                    <li>Architected an ECS Fargate and Step Functions migration that removed dependencies on EKS, Kafka and MSK.</li>
+                    <li>Built a Semantic Search deletion lifecycle for an embedding-based vector search service, with integration tests, canaries and KMS token encryption.</li>
+                    <li>Drove AI-first engineering with custom AI agents and automations for team workflows; mentored new engineers.</li>
+                </ul>
+            </div>
+            <div class="job" data-aos="fade-up">
+                <div class="jobHead">
+                    <h2>Software Engineer &middot; Software Data Operations Engineer</h2>
+                    <span class="date">Jul 2021 &ndash; Aug 2024</span>
+                </div>
+                <h3>MAQ Software (Microsoft Partner)</h3>
+                <ul>
+                    <li>Architected the cloud migration of Itron's IoT platform onto Azure Data Explorer, ingesting 400 GB of history and 2&ndash;3 GB/day of live sensor data; adopted as MAQ's reference architecture.</li>
+                    <li>Replaced a rule-based forecasting engine with an ML system, extending business-decline detection from 1&ndash;2 to 3&ndash;4 months ahead for 7,000+ Microsoft sellers; earned a SPOT award.</li>
+                    <li>Built Python and C# REST services with automated monitoring that cut pipeline failures 40%+, and tuned 100+ GB/day SQL workloads to run 40%+ faster.</li>
+                    <li>Owned Microsoft's Copilot Cup adoption dashboard end to end; automated 100% of deployments with CI/CD.</li>
+                    <li>Led a cross-functional team of 12 designing the Staples rewards database and system.</li>
+                </ul>
+            </div>
+            <div class="edu" data-aos="fade-up">
+                <div>
+                    <h2>M.S. Computer Science</h2>
+                    <h3>University of Southern California &middot; 2023 &ndash; 2025</h3>
+                </div>
+                <div>
+                    <h2>B.E. Information Technology</h2>
+                    <h3>University of Mumbai &middot; 2017 &ndash; 2021</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -156,15 +208,15 @@
             <hr>
         </div>
         <div class="wrap">
-            <p data-aos="fade-right" class="skillText">An individual eager to learn and explore new fields of life and technology, with good listening
-                skills and fast learning abilities.</p>
+            <p data-aos="fade-right" class="skillText">Java, Python and C# with Spring Boot, GraphQL and REST; AWS (Lambda, ECS Fargate, Step Functions,
+                SQS, SNS, OpenSearch, DynamoDB, KMS); Docker, Kubernetes and CI/CD; Amazon Bedrock, PyTorch and PySpark.</p>
             <div class="interest" data-aos="fade-right" data-aos-anchor=".skillText">
-                <h3>Interests</h3>
+                <h3>Focus</h3>
                 <div class>
-                    <p>Data Engineering</p>
-                    <p>Programming in Java and Python</p>
-                    <p>Microsoft Azure, GCP</p>
-                    <p>Data Science</p>
+                    <p>Distributed Systems</p>
+                    <p>Event-Driven &amp; Serverless Backends</p>
+                    <p>GenAI &amp; LLMs</p>
+                    <p>Cloud Data Platforms</p>
                 </div>
             </div>
 
@@ -195,9 +247,9 @@
                 </div>
                 <div class="iteam iteam5">
                     <div class="iteamCircle">
-                        <img src="./icons/data-science.png" alt="Data Science">
+                        <img src="./icons/data-science.png" alt="ML and GenAI">
                     </div>
-                    <p>Data Science</p>
+                    <p>ML &amp; GenAI</p>
                 </div>
             </div>
         </div>
@@ -219,7 +271,7 @@
                 <a href="https://www.linkedin.com/in/shubhamdarekar/" target="_blank"><img
                         src="icons/linkedin.svg" alt="LinkedIn"></a>
                 <a href="https://github.com/shubhamdarekar" target="_blank"><img src="icons/github.svg" alt="GitHub"></a>
-                <a href="./images/ShubhamSanjayDarekar_Resume.pdf" target="_blank"><img src="icons/resume.png" alt="Twitter"></a>
+                <a href="./images/ShubhamSanjayDarekar_Resume.pdf" target="_blank"><img src="icons/resume.png" alt="Resume"></a>
                 
             </div>
         </div>
@@ -241,8 +293,6 @@
       });
       if(window.innerWidth <= 768){
           document.querySelector(".interest").removeAttribute("data-aos-anchor");
-          document.querySelector(".healerText").setAttribute("data-aos-anchor",".healerImg")
-          document.querySelector(".colorGuessText").setAttribute("data-aos-anchor",".colorGuessImg")
           
         }
     </script>
